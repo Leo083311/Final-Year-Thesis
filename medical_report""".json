@@ -1,0 +1,11 @@
+{
+  "name": "Robert Hart",
+  "age": 55,
+  "sex": "male",
+  "weight_kg": 85,
+  "height_cm": 178,
+  "activity_level": "lightly_active",
+  "conditions": ["High Cholesterol", "Gout"],
+  "allergies": [],
+  "primary_goal": "muscle_gain"
+}

@@ -1,0 +1,21 @@
+{
+  "patient_id": "AIT2209941_LT",
+  "name": "Leonard Tye",
+  "age": 22,
+  "sex": "Male",
+  "weight_kg": 74,
+  "height_cm": 172,
+  "activity_level": "lightly_active", 
+  "conditions": [
+    "Chronic Kidney Disease (CKD)",
+    "Hypertension",
+    "GERD / Acid Reflux"
+  ],
+  "allergies": [
+    "Peanuts"
+  ],
+  "dietary_goals": [
+    "Muscle Gain",
+    "Weight Loss"
+  ]
+}

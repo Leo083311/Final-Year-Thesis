@@ -1,0 +1,21 @@
+{
+  "patient_id": "AIT2209441_LT",
+  "name": "Jenny",
+  "age": 22,
+  "sex": "female",
+  "weight_kg": 40,
+  "height_cm": 150,
+  "activity_level": "none_active", 
+  "conditions": [
+    "Cancer", "heart disease", "diabetes", 
+    "high blood pressure", 
+    "chronic kidney disease"
+  ],
+  "allergies": [
+    "peanuts", "seafood", "gluten", "dairy"
+    
+  ],
+  "dietary_goals": [
+    "Weight Loss"
+  ]
+}
