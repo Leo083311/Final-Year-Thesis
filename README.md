@@ -59,6 +59,6 @@ To build the knowledge base without incurring massive API costs or exposing data
 
 ### 1. Clone & Install
 ```bash
-git clone [https://github.com/YourUsername/Agentic-Health-Recommender.git](https://github.com/YourUsername/Agentic-Health-Recommender.git)
+git clone [(https://github.com/Leo083311/Final-Year-Thesis.git)]
 cd Agentic-Health-Recommender
 pip install -r requirements.txt
