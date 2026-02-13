@@ -27,7 +27,6 @@ To ensure strict data privacy and high-level reasoning, the architecture is spli
 | **Data & Retrieval** | PostgreSQL (Neon Serverless), pgvector (HNSW Indexing), Hybrid Search |
 | **Backend & Compute** | Python (Multiprocessing, ProcessPoolExecutor), RESTful APIs |
 | **Data Science** | Pandas, NumPy, Scikit-learn (K-Means, PCA, DBSCAN, Isolation Forest) |
-| **Frontend/UI** | Streamlit |
 
 ## 🚀 Installation & Setup
 
