@@ -1,4 +1,4 @@
-# 🧬 Personalized Nutrition & Fitness Recommender (Agentic RAG)
+# Personalized Nutrition & Fitness Recommender (Agentic RAG)
 
 [![Python](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/)
 [![Framework](https://img.shields.io/badge/LangGraph-Agentic_State_Machine-orange.svg)](https://python.langchain.com/docs/langgraph)
@@ -7,13 +7,13 @@
 
 > **A privacy-first, fault-tolerant recommendation engine for complex medical comorbidities, built on a Two-Tier Architecture using LangGraph, Google Gemini, and local Llama-3.**
 
-## 📖 Overview
+## Overview
 
 Standard fitness applications fail for users with complex medical conditions (e.g., Chronic Kidney Disease + Hypertension) because they prioritize simple goal-matching over clinical safety. 
 
 This project solves that by orchestrating an **Agentic RAG** workflow. To satisfy both strict data privacy (zero PII leakage) and high-level reasoning, the system is decoupled into a **Local Processing Unit** (for secure, offline data enrichment and deterministic filtering) and a **Stateless Cloud Inference Unit** (for semantic logic).
 
-## 🧠 Core Architecture
+## Core Architecture
 
 
 
@@ -38,7 +38,7 @@ To build the knowledge base without incurring massive API costs or exposing data
 * **Fault-Tolerant Ingestion:** Engineered the ingestion scripts to handle network instability and database timeouts. Implemented connection retry loops (`get_conn_with_retry`), batch DB commits, and an MD5 hashing system (`doc_hash`) to allow the pipeline to resume safely if interrupted.
 * **Parallel Processing:** Utilized Python's `ProcessPoolExecutor` to parallelize the embedding generation across multiple CPU cores, drastically reducing the time required to vectorize the dataset.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component | Technology |
 | :--- | :--- |
@@ -49,7 +49,7 @@ To build the knowledge base without incurring massive API costs or exposing data
 | **Embeddings** | `sentence-transformers/all-MiniLM-L6-v2` |
 | **Concurrency & ETL** | `ProcessPoolExecutor`, `tqdm`, Hash-based Resume State |
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 * Python 3.10+
